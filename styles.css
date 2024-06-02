@@ -1,0 +1,86 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h1 {
+    margin-top: 20px;
+    color: #343a40;
+}
+
+p {
+    margin: 20px 0;
+    color: #6c757d;
+}
+
+#contactUsBtn {
+    margin-top: 20px;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-title {
+    margin: auto;
+}
+
+.modal-body {
+    padding: 2rem;
+}
+
+.btn-danger {
+    background-color: #ff4c4c;
+    border-color: #ff4c4c;
+}
+
+.btn-danger:hover {
+    background-color: #ff1a1a;
+    border-color: #ff1a1a;
+}
+
+.carousel-img {
+    transition: transform 0.3s ease;
+}
+
+.carousel-img:hover {
+    transform: scale(1.05);
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+}
+
+.read-more-btn {
+    background-color: red;
+    color: white;
+}
+
+#projectImage {
+    transition: opacity 0.3s ease;
+}
+
+.list-group-item.active {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.list-group-item.active:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+/* Other CSS styles remain the same */
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+    border-color: #dee2e6;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
+}
+
+.list-group-item.active:hover {
+    background-color: #007bff;
+    border-color: #007bff;
+    box-shadow: none;
+}
